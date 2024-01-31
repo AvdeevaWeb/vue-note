@@ -1,4 +1,4 @@
-# vuex
+# vue-note
 
 ## Project setup
 ```
