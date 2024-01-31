@@ -1,7 +1,7 @@
 @import 'utils/vars';
 @import 'utils/reset';
 
-body{
+body {
     font-family: $mainFont;
     font-size: $mainFontSize;
     font-weight: $mainFontWeight;
@@ -11,7 +11,25 @@ body{
     padding: 30;
     background-color: #f7f7f7;
 }
-img{
+
+img,
+button {
     cursor: pointer;
 }
+
+h1 {
+    font-size: $titleFontSize;
+    font-weight: $titleFontWeight;
+}
+
+nav {
+    padding: 30px;
+    font-size: $titleFontSize;
+    font-weight: $titleFontWeight;
+    text-align: center;
+    color: $main-color;
+}
+
+
+
 @import 'common/_common';
