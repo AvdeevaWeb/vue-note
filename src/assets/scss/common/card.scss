@@ -1,0 +1,28 @@
+@import '../utils/vars.scss';
+
+
+.card {
+    flex-direction: column;
+    max-width: 400px;
+    height: max-content;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(29, 52, 54, 0.4);
+    white-space: wrap;
+}
+
+.title {
+    color: $main-color;
+    font-size: $titleFontSize;
+    font-weight: $titleFontWeight;
+}
+
+p {
+    color: $text-color-dark;
+    font-size: $mainFontSize;
+    font-weight: $mainFontWeight;
+}
+
+.card-footer {
+    justify-content: end;
+}

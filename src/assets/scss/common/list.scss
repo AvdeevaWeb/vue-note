@@ -1,0 +1,13 @@
+@import '../utils/vars.scss';
+
+.notesList{
+    padding: 30px;
+    
+}
+
+.notesList div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}

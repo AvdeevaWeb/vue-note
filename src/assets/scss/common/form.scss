@@ -1,0 +1,32 @@
+@import '../utils/vars.scss';
+
+.form {   
+    padding: 30px;
+}
+
+form label {
+    color: $main-color;
+    font-size: 20px;
+    font-weight: 700;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  
+}
+form input, textarea {
+    width: 70%;
+    padding: 8px 15px;
+    border-radius: 8px;
+    white-space: wrap;
+    font-family: $mainFont;
+    border: 1px solid  $text-color-dark;
+    color: $text-color-dark;
+    font-size: $mainFontSize;
+    font-weight: $mainFontWeight;
+}
+form textarea {
+    height: 220px;
+}

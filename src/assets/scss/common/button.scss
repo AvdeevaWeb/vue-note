@@ -1,0 +1,11 @@
+@import '../utils/vars.scss';
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    color: $text-color-light;
+    background-color: $main-color;
+    cursor: pointer;
+}
